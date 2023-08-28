@@ -1,5 +1,24 @@
 .App {
   text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+#quote-box {
+  text-align: center;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  height: auto;
+  background-color: white;
+  align-self: center;
+}
+
+
+#quote:hover {
+  color: #61dafb;
+  cursor: pointer;
 }
 
 .App-logo {
